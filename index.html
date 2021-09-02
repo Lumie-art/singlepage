@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #ffffff;
+      }
+
+      .welcome {
+        width: 100%;
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+      }
+
+      .about {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+        gap: 2rem;
+        /* align-items: center; */
+      }
+
+      img {
+        order: 0;
+        width: 30%;
+        height: 100%;
+      }
+
+      .about .content {
+        order: 1;
+        width: 70%;
+      }
+
+      .about .content h1 {
+        font-size: 1.5rem;
+        text-align: center;
+      }
+      .underline {
+        width: 5rem;
+        height: 4px;
+        background-color: #ff8f2f;
+        border-radius: 5px;
+      }
+
+      .content-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5rem;
+      }
+      .contact-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .contact {
+        width: 60%;
+        padding: 3rem 2rem 5rem 2rem;
+        border: 1px solid #9a9999e3;
+        border-radius: 5px;
+        box-shadow: 1px 10px 6px 3px #8e8e8e;
+      }
+
+      .text p {
+        margin: 1rem 0;
+      }
+      .contact-header {
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+      }
+
+      .form-input {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .form-input label {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .form-input input,
+      .form-input textarea {
+        border: 1px solid #c1c0c0;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+        outline: none;
+      }
+      .form-input input {
+        height: 2rem;
+      }
+      .button-wrapper {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .button-wrapper button {
+        padding: 0.5rem 2rem;
+        border: none;
+        border-radius: 5px;
+        background-color: #000fffed;
+        outline: none;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="welcome">Welcome</div>
+    <div class="about">
+      <div class="content">
+        <div class="content-header">
+          <h1>Who we Are</h1>
+          <div class="underline"></div>
+        </div>
+
+        <div class="text">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
+            sapiente tenetur sunt saepe voluptatem incidunt nesciunt eius optio
+            quo perspiciatis maxime nisi vero, dolore qui quam, nihil eos iste
+            libero? Hic sunt laborum, dolorem pariatur vel, inventore ut quidem
+            enim modi animi perferendis esse voluptatem! Laudantium eaque culpa
+            amet quas et atque esse saepe laborum quaerat possimus, expedita
+            aspernatur neque. Sed, dolor quam nihil fugiat maiores facilis
+            officia itaque! Nihil inventore dolorem doloremque blanditiis
+            suscipit libero, sint repellat magnam facilis earum. Ex, sequi ea
+            aut incidunt expedita accusantium. Ducimus! Velit temporibus beatae
+            provident architecto laudantium vitae ducimus sapiente, corrupti
+            optio iusto iste debitis voluptatem. Ipsa ducimus sint atque laborum
+            facilis aliquid, earum quasi quos. Quod obcaecati doloribus
+            doloremque laborum! Aut aperiam tempore possimus perspiciatis, magni
+            excepturi saepe ad explicabo rem consequuntur vel similique odio
+            optio accusamus maiores ullam cumque laboriosam commodi obcaecati
+            quae repellendus quisquam sequi ut. Delectus, tenetur!
+          </p>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo
+            molestias repellendus animi consequuntur in, eveniet labore eaque
+            optio temporibus aperiam error necessitatibus sunt sed, nostrum
+            nobis facilis, nam magni ex. Neque laborum expedita impedit
+            inventore repudiandae. Nisi, ab iure sapiente exercitationem facilis
+            ullam, molestiae iste magni id porro excepturi obcaecati, quae dolor
+            in assumenda a doloribus iusto molestias error accusamus. e voluptas
+            ecessitatibus atque architecto quas accusantium voluptas, ea, iste
+            ipsum provident, officiis quaerat. Fugiat numquam mollitia itaque
+            atque provident, doloremque repudiandae voluptas. Deleniti, numquam
+            dolore. Temporibus architecto commodi aut? Magni similique quisquam
+            neque expedita perferendis modi veritatis aliquid, molestias
+            pariatur consectetur sunt aliquam alias accusamus odio dignissimos
+            fugit assumenda nihil, perspiciatis exercitationem possimus repellat
+            nostrum ratione. Eum, eveniet laboriosam. Accusantium harum eligendi
+            alias vero, laboriosam distinctio, illo praesentium id fugit,
+            consectetur at? Praesentium distinctio perferendis et nihil
+            provident. Aut soluta sint iure doloribus animi enim hic eum
+            consequatur adipisci?
+          </p>
+        </div>
+      </div>
+      <img src="uu.jpg" alt="image" />
+    </div>
+
+    <div class="contact-wrapper">
+      <div class="contact">
+        <div class="contact-header">Contact Us</div>
+        <form action="#">
+          <div class="form-input">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" />
+          </div>
+          <div class="form-input">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" />
+          </div>
+          <div class="form-input">
+            <label for="message">Text Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="button-wrapper">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
